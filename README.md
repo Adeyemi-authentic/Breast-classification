@@ -83,15 +83,15 @@ Overall accuracy of 92.11% indicates the model correctly classifies most cases.
 ## Model Strengths & Limitations
 
 ### Strengths
-✅ High precision for malignant detection (97%)
-✅ Excellent recall for benign cases (99%)
-✅ Strong overall accuracy (92.11%)
-✅ Handles class imbalance with weighted loss function
+1. High precision for malignant detection (97%)
+2. Excellent recall for benign cases (99%)
+3. Strong overall accuracy (92.11%)
+4. Handles class imbalance with weighted loss function
 
 ### Limitations
-⚠️ Moderate recall for malignant cases (81%) - misses some cancer cases
-⚠️ 8 false negatives in test set could have serious clinical consequences
-⚠️ Small dataset (569 samples) may limit generalization
+ 1. Moderate recall for malignant cases (81%) - misses some cancer cases
+ 2. 8 false negatives in test set could have serious clinical consequences
+ 3. Small dataset (569 samples) may limit generalization
 
 ## Clinical Recommendations
 
