@@ -1,0 +1,56 @@
+2025-10-16 18:31:34,519 INFO    MainThread:18032 [wandb_setup.py:_flush():81] Current SDK version is 0.22.0
+2025-10-16 18:31:34,519 INFO    MainThread:18032 [wandb_setup.py:_flush():81] Configure stats pid to 18032
+2025-10-16 18:31:34,520 INFO    MainThread:18032 [wandb_setup.py:_flush():81] Loading settings from C:\Users\USER\.config\wandb\settings
+2025-10-16 18:31:34,520 INFO    MainThread:18032 [wandb_setup.py:_flush():81] Loading settings from c:\Users\USER\breastclassif\wandb\settings
+2025-10-16 18:31:34,520 INFO    MainThread:18032 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-16 18:31:34,521 INFO    MainThread:18032 [wandb_init.py:setup_run_log_directory():686] Logging user logs to c:\Users\USER\breastclassif\wandb\run-20251016_183134-28kj9z1v\logs\debug.log
+2025-10-16 18:31:34,522 INFO    MainThread:18032 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to c:\Users\USER\breastclassif\wandb\run-20251016_183134-28kj9z1v\logs\debug-internal.log
+2025-10-16 18:31:34,522 INFO    MainThread:18032 [wandb_init.py:monkeypatch_ipython():605] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001C573B9AF10>
+2025-10-16 18:31:34,523 INFO    MainThread:18032 [wandb_init.py:init():813] calling init triggers
+2025-10-16 18:31:34,523 INFO    MainThread:18032 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 2, 'class_weight': 'balanced', 'model': 'RandomForest', '_wandb': {}}
+2025-10-16 18:31:34,523 INFO    MainThread:18032 [wandb_init.py:init():861] starting backend
+2025-10-16 18:31:36,930 INFO    MainThread:18032 [wandb_init.py:init():864] sending inform_init request
+2025-10-16 18:31:36,974 INFO    MainThread:18032 [wandb_init.py:init():872] backend started and connected
+2025-10-16 18:31:36,991 INFO    MainThread:18032 [wandb_run.py:_label_probe_notebook():1330] probe notebook
+2025-10-16 18:31:37,002 INFO    MainThread:18032 [wandb_init.py:init():942] updated telemetry
+2025-10-16 18:31:37,147 INFO    MainThread:18032 [wandb_init.py:init():966] communicating run to backend with 90.0 second timeout
+2025-10-16 18:31:38,313 INFO    MainThread:18032 [wandb_init.py:init():1017] starting run threads in backend
+2025-10-16 18:31:40,564 INFO    MainThread:18032 [wandb_run.py:_console_start():2506] atexit reg
+2025-10-16 18:31:40,564 INFO    MainThread:18032 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-10-16 18:31:40,565 INFO    MainThread:18032 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-10-16 18:31:40,566 INFO    MainThread:18032 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-10-16 18:31:40,583 INFO    MainThread:18032 [wandb_init.py:init():1057] run started, returning control to user process
+2025-10-16 18:31:40,606 INFO    MainThread:18032 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 18:31:41,160 INFO    MainThread:18032 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 18:31:41,161 INFO    MainThread:18032 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 18:31:41,272 INFO    MainThread:18032 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 18:31:41,437 INFO    MainThread:18032 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 18:31:41,438 INFO    MainThread:18032 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 18:31:41,441 INFO    MainThread:18032 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 18:31:41,544 INFO    MainThread:18032 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 18:31:41,544 INFO    MainThread:18032 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 18:31:41,548 INFO    MainThread:18032 [wandb_run.py:_config_callback():1392] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-10-16 18:31:44,210 INFO    MainThread:18032 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 18:31:44,229 INFO    MainThread:18032 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 18:31:44,230 INFO    MainThread:18032 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 18:31:45,770 INFO    MainThread:18032 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 18:31:45,795 INFO    MainThread:18032 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 18:31:45,795 INFO    MainThread:18032 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 18:31:45,798 INFO    MainThread:18032 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 18:31:45,846 INFO    MainThread:18032 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 18:31:45,847 INFO    MainThread:18032 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 18:31:45,998 INFO    MainThread:18032 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 18:31:46,044 INFO    MainThread:18032 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 18:31:46,045 INFO    MainThread:18032 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 18:31:47,701 INFO    MainThread:18032 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 18:31:47,752 INFO    MainThread:18032 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 18:31:47,753 INFO    MainThread:18032 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 18:31:47,755 INFO    MainThread:18032 [wandb_run.py:_finish():2272] finishing run adey004azeez-hiipower-academy/breast classification/28kj9z1v
+2025-10-16 18:31:47,756 INFO    MainThread:18032 [jupyter.py:save_history():480] not saving jupyter history
+2025-10-16 18:31:47,757 INFO    MainThread:18032 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-10-16 18:31:47,757 INFO    MainThread:18032 [wandb_init.py:_jupyter_teardown():590] cleaning up jupyter logic
+2025-10-16 18:31:47,757 INFO    MainThread:18032 [wandb_run.py:_atexit_cleanup():2471] got exitcode: 0
+2025-10-16 18:31:47,758 INFO    MainThread:18032 [wandb_run.py:_restore():2453] restore
+2025-10-16 18:31:47,759 INFO    MainThread:18032 [wandb_run.py:_restore():2459] restore done
+2025-10-16 18:31:51,540 INFO    MainThread:18032 [wandb_run.py:_footer_sync_info():3867] logging synced files
