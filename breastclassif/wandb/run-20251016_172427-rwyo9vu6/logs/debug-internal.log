@@ -1,0 +1,12 @@
+{"time":"2025-10-16T17:24:30.2166136+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.0"}
+{"time":"2025-10-16T17:24:31.1629207+01:00","level":"INFO","msg":"stream: created new stream","id":"rwyo9vu6"}
+{"time":"2025-10-16T17:24:31.1629207+01:00","level":"INFO","msg":"stream: started","id":"rwyo9vu6"}
+{"time":"2025-10-16T17:24:31.1642682+01:00","level":"INFO","msg":"writer: started","stream_id":"rwyo9vu6"}
+{"time":"2025-10-16T17:24:31.1647746+01:00","level":"INFO","msg":"sender: started","stream_id":"rwyo9vu6"}
+{"time":"2025-10-16T17:24:31.1650441+01:00","level":"INFO","msg":"handler: started","stream_id":"rwyo9vu6"}
+{"time":"2025-10-16T17:29:42.4910764+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact breast-cancer-rf-model","runtime_seconds":4.0838694},{"desc":"updating run metadata","runtime_seconds":0.0062117}],"total_operations":2}}
+{"time":"2025-10-16T17:29:43.6455698+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-16T17:29:44.4657256+01:00","level":"INFO","msg":"stream: closing","id":"rwyo9vu6"}
+{"time":"2025-10-16T17:29:44.4657256+01:00","level":"INFO","msg":"handler: closed","stream_id":"rwyo9vu6"}
+{"time":"2025-10-16T17:29:44.4667694+01:00","level":"INFO","msg":"sender: closed","stream_id":"rwyo9vu6"}
+{"time":"2025-10-16T17:29:44.4667694+01:00","level":"INFO","msg":"stream: closed","id":"rwyo9vu6"}

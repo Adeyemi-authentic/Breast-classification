@@ -1,0 +1,66 @@
+2025-10-16 17:24:27,383 INFO    MainThread:7828 [wandb_setup.py:_flush():81] Current SDK version is 0.22.0
+2025-10-16 17:24:27,384 INFO    MainThread:7828 [wandb_setup.py:_flush():81] Configure stats pid to 7828
+2025-10-16 17:24:27,384 INFO    MainThread:7828 [wandb_setup.py:_flush():81] Loading settings from C:\Users\USER\.config\wandb\settings
+2025-10-16 17:24:27,384 INFO    MainThread:7828 [wandb_setup.py:_flush():81] Loading settings from C:\Users\USER\breastclassif\wandb\settings
+2025-10-16 17:24:27,385 INFO    MainThread:7828 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-16 17:24:27,386 INFO    MainThread:7828 [wandb_init.py:setup_run_log_directory():686] Logging user logs to C:\Users\USER\breastclassif\wandb\run-20251016_172427-rwyo9vu6\logs\debug.log
+2025-10-16 17:24:27,387 INFO    MainThread:7828 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to C:\Users\USER\breastclassif\wandb\run-20251016_172427-rwyo9vu6\logs\debug-internal.log
+2025-10-16 17:24:27,387 INFO    MainThread:7828 [wandb_init.py:monkeypatch_ipython():605] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002D1C7592810>
+2025-10-16 17:24:27,388 INFO    MainThread:7828 [wandb_init.py:init():813] calling init triggers
+2025-10-16 17:24:27,388 INFO    MainThread:7828 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 2, 'class_weight': 'balanced', 'model': 'RandomForest', '_wandb': {}}
+2025-10-16 17:24:27,388 INFO    MainThread:7828 [wandb_init.py:init():861] starting backend
+2025-10-16 17:24:30,147 INFO    MainThread:7828 [wandb_init.py:init():864] sending inform_init request
+2025-10-16 17:24:30,208 INFO    MainThread:7828 [wandb_init.py:init():872] backend started and connected
+2025-10-16 17:24:30,221 INFO    MainThread:7828 [wandb_run.py:_label_probe_notebook():1330] probe notebook
+2025-10-16 17:24:30,223 INFO    MainThread:7828 [wandb_run.py:_label_probe_notebook():1340] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-10-16 17:24:30,224 INFO    MainThread:7828 [wandb_init.py:init():942] updated telemetry
+2025-10-16 17:24:30,354 INFO    MainThread:7828 [wandb_init.py:init():966] communicating run to backend with 90.0 second timeout
+2025-10-16 17:24:31,613 INFO    MainThread:7828 [wandb_init.py:init():1017] starting run threads in backend
+2025-10-16 17:24:33,665 INFO    MainThread:7828 [wandb_run.py:_console_start():2506] atexit reg
+2025-10-16 17:24:33,666 INFO    MainThread:7828 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-10-16 17:24:33,667 INFO    MainThread:7828 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-10-16 17:24:33,667 INFO    MainThread:7828 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-10-16 17:24:33,678 INFO    MainThread:7828 [wandb_init.py:init():1057] run started, returning control to user process
+2025-10-16 17:24:33,681 INFO    MainThread:7828 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 17:24:33,720 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 17:24:33,720 INFO    MainThread:7828 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 17:24:33,798 INFO    MainThread:7828 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 17:24:33,817 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 17:24:33,817 INFO    MainThread:7828 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 17:24:33,820 INFO    MainThread:7828 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 17:24:33,841 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 17:24:33,845 INFO    MainThread:7828 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 17:24:40,113 INFO    MainThread:7828 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 17:25:42,317 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 17:25:42,318 INFO    MainThread:7828 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 17:25:42,682 INFO    MainThread:7828 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 17:28:37,627 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 17:28:37,628 INFO    MainThread:7828 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 17:28:37,632 INFO    MainThread:7828 [wandb_run.py:_config_callback():1392] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-10-16 17:28:40,408 INFO    MainThread:7828 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 17:28:57,141 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 17:28:57,142 INFO    MainThread:7828 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 17:28:57,146 INFO    MainThread:7828 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 17:29:21,469 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 17:29:21,470 INFO    MainThread:7828 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 17:29:23,174 INFO    MainThread:7828 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 17:29:24,800 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 17:29:24,802 INFO    MainThread:7828 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 17:29:24,804 INFO    MainThread:7828 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 17:29:27,277 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 17:29:27,277 INFO    MainThread:7828 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 17:29:27,412 INFO    MainThread:7828 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 17:29:37,303 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 17:29:37,304 INFO    MainThread:7828 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 17:29:39,131 INFO    MainThread:7828 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-10-16 17:29:42,478 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-10-16 17:29:42,479 INFO    MainThread:7828 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-10-16 17:29:42,481 INFO    MainThread:7828 [wandb_run.py:_finish():2272] finishing run adey004azeez-hiipower-academy/breast classification/rwyo9vu6
+2025-10-16 17:29:42,482 INFO    MainThread:7828 [jupyter.py:save_history():480] not saving jupyter history
+2025-10-16 17:29:42,482 INFO    MainThread:7828 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-10-16 17:29:42,482 INFO    MainThread:7828 [wandb_init.py:_jupyter_teardown():590] cleaning up jupyter logic
+2025-10-16 17:29:42,483 INFO    MainThread:7828 [wandb_run.py:_atexit_cleanup():2471] got exitcode: 0
+2025-10-16 17:29:42,484 INFO    MainThread:7828 [wandb_run.py:_restore():2453] restore
+2025-10-16 17:29:42,484 INFO    MainThread:7828 [wandb_run.py:_restore():2459] restore done
+2025-10-16 17:29:44,451 INFO    MainThread:7828 [wandb_run.py:_footer_sync_info():3867] logging synced files
