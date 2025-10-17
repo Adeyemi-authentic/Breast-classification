@@ -120,6 +120,10 @@ scikit-learn
 matplotlib
 ```
 
+## WebApp
+To run the rf_app.py and torh.py files run ``` uvicorn rf_app:app --reload``` or ``` uvicorn torch:app --reload```
+
+
 
 
 ## Conclusion
